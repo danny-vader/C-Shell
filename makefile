@@ -1,0 +1,2 @@
+make all:
+	gcc -g -o shell background.c bg.c cd.c discover.c echo.c execute.c fg.c foreground.c headers.c history.c init.c jobs.c ls.c main.c misc.c pinfo.c pipe.c prompt.c pwd.c redirection.c sig.c tokenize.c

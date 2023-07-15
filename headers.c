@@ -1,0 +1,20 @@
+#include "headers.h"
+
+pid_t SHELL_PID;
+char HOME[MAX_SIZE];
+char CWD[MAX_SIZE];
+char PWD[MAX_SIZE];
+char USERNAME[MAX_SIZE];
+char SYSTEM_NAME[MAX_SIZE];
+double proc_time;
+int bg_proc_count;
+node bg_proc_list_head;
+int stdin_fileno;
+int stdout_fileno;
+char CURR_CMD[MAX_SIZE];
+int commands;
+char *LIST_CMD[MAX_SIZE];
+int history_count;
+char *HISTORY[MAX_CMDS];
+int argc;
+char *argv[MAX_SIZE];
